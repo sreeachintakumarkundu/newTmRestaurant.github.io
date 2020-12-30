@@ -1,0 +1,953 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#mainHed{
+    background: linear-gradient(#000000c7,#544942b3),url(hero.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.hedwarper{
+    overflow: hidden;
+}
+.logo img{
+    width: 150px;
+    max-width: 100%;
+    padding: 10px;
+    float: left;
+}
+.hedManu {
+    margin-top: 44px;
+    width: 540px;
+    float: right;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.hedManu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c2af76;
+    padding: 12px 20px 12px 20px;
+}
+.hedManu a:last-child{
+    border: 1px solid #bda96c;
+}
+.mdlText{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title_text h2{
+ color:#FFFFFF;
+ text-transform: capitalize;
+ opacity: 0.9;
+ font-size: 35px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+ letter-spacing: 3px;
+}
+.dscription p{
+    color: #9d8349;
+    font-size: 20px;
+    line-height: 10px;
+    margin-top: 15px;
+    }
+.dscription {margin-top: 25px;margin-bottom: 25px;}
+.hedBtn{
+    margin: 0 auto;
+    width: 483px;
+    margin-top: 26px;
+    outline: none;
+}
+.hedBtn button {
+    padding: 12px 22px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #CAAC66;
+    outline: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 15px;
+}
+#medlSec{
+    padding: 80px 0px;
+}
+.med_warrper{
+    overflow: hidden;
+    position: relative;
+}
+.left_text{
+width: 370px;
+float: left;
+padding-left: 30px
+}
+.shadowText {
+    position: relative;
+}
+.shadowText h2 {
+    position: absolute;
+    top: -50px;
+    font-family: 'Kristi', cursive;
+    font-size: 60px;
+    text-transform: uppercase;
+    left: 35px;
+    z-index: 1;
+    color: beige;
+    font-weight: 100;
+}
+.left_text h1{text-transform: uppercase;font-family: 'Montserrat';margin-bottom: 10px;font-size: 40px;font-weight: 300;}
+.left_text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.med_text p{
+    width: 345px;
+    float: left;   
+    margin-top: 60px;   
+    padding-left: 20px;   
+    font-size: 18px;
+    font-weight: 300;
+    }
+.right_img{
+    
+float: right;
+    
+width: 309px;
+    
+height: 475px;
+    
+position: relative;
+}
+.right_img i {
+    position: absolute;
+    color: #ffffffa3;
+    font-size: 50px;
+    top: 50%;
+    left: 40%;
+}
+.se_btn{
+   
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: 170px;
+    left: 32px;
+    background: rgb(202, 172, 102);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px -3px black;
+}
+.se_btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.right_img img {
+    max-width: 100%;
+}
+.blog_img{
+    overflow: hidden;
+    position: relative;
+    margin-top: -79px;
+    left: 20px;
+}
+.blog_img_s{
+    float: left;
+    display: block;
+    width: 204px;
+    padding-left: 30px;
+    position: relative;
+}
+.blog_img_s img{
+    max-width: 100%;
+    height: 196px;
+    border-radius: 15px;
+}
+
+.blog_img_s:first-child{
+    padding-left: 0px;
+}
+.blog_img_s:first-child span {
+    position: absolute;
+    left: 62px;
+}
+.blog_img_s span {
+    position: absolute;
+    color: #f5d3d3;
+    left: 42%;
+    bottom: 10px;
+}
+#midelPtc{
+    background: linear-gradient(#00000059,#00000059),url(img/section2.jfif);
+    height: 364px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.midewapper{
+    overflow: hidden;
+}
+.midelTextPtc_l{
+    float: left;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 310px;
+    left: 100px;
+}
+.midelText_sd0 {
+    position: absolute;
+    top: 38%;
+}
+
+.midelText_sd0 h3 {
+    font-family: 'Kristi';
+    font-size: 58px;
+    font-weight: 200;
+    color: #807C78;
+}
+.midelTextPtc_l h3 {
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.mdiltxPtc_M{
+    float: left;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 500px;
+    top: 43%;
+    overflow: hidden;
+}
+.mdiltxPtc_M h3 {
+    font-size: 21px;
+    font-weight: 300;
+    float: left;
+    display: block;
+    text-transform: capitalize;
+}
+.cues_hN2 { 
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    float: left;
+    display: block;
+}
+.cues_hN2 h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.cues_hN2 span{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.mdiltxPtc_M p{
+   font-size: 30px;
+}
+.mdiltxPtc_M span{
+
+font-size: 15px;
+
+margin-left: 7px;
+
+font-weight: 300;
+}
+.midelBtn_B{
+    position: absolute;
+    top: 50%;
+    right: 300px;
+    background: rgb(202, 172, 102);
+    width: 110px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 8px 0px;
+    box-shadow: 0px -3px 11px 1px #512d2d;
+    text-transform: uppercase;
+}
+.midelBtn_B a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+#postBlg{
+    padding: 80px 0px;
+}
+.taitel_text {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.taitel_text h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #4C4C4C;
+    font-weight: 200;
+}
+.single_post {
+    width: 314px;
+    float: left;
+    display: block;
+}
+
+.postWarpper {
+    overflow: hidden;
+}
+
+.single_post img {
+    max-width: 100%;
+    height: 301px;
+}
+.single_post2 {
+    width: 314px;
+    float: left;
+    margin-left: 13px;
+}
+
+.single_post2 img {
+    max-width: 1000%;
+    height: 380px;
+}
+.single_post3 {
+    width: 372px;
+    float: left;
+    margin-left: 4px;
+    height: 400px;
+    position: relative;
+}
+
+.single_post3 img {
+    height: 191px;
+    width: 100%;
+}
+.sinwarp11 {
+    overflow: hidden;
+}
+
+.sin1 {
+    width: 179px;
+    float: left;
+}
+
+.sin1 img {
+    max-width: 100%;
+    height: 154px;
+    margin-top: 6px;
+}
+.sin2 {
+    width: 179px;
+    float: left;
+    margin-left: 14px;
+}
+
+.sin2 img {
+    max-width: 100%;
+    height: 154px;
+    margin-top: 6px;
+}
+.single_post4 {
+    width: 314px;
+    float: left;
+    margin-top: -85px;
+}
+
+.single_post4 img {
+    max-width: 100%;
+    height: 296px;
+}
+.single_post5 {
+    width: 304px;
+    float: left;
+    margin-left: 14px;
+    margin-top: -5px;
+}
+
+.single_post5 img {
+    height: 214px;
+    max-width: 100%;
+}
+.single_post6 {
+    float: left;
+    width: 411px;
+    margin-left: 13px;
+    margin-top: -33px;
+}
+
+.single_post6 img {
+    max-width: 100%;
+    height: 242px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#mainHed{
+    background: linear-gradient(#000000c7,#544942b3),url(hero.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.hedwarper{
+    overflow: hidden;
+}
+.logo img{
+    width: 150px;
+    max-width: 100%;
+    padding: 10px;
+    float: left;
+}
+.hedManu {
+    margin-top: 44px;
+    width: 540px;
+    float: right;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.hedManu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c2af76;
+    padding: 12px 20px 12px 20px;
+    font-weight: 300;
+}
+.hedManu a:last-child{
+    border: 1px solid #bda96c;
+}
+.mdlText{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title_text h2{
+ color:#FFFFFF;
+ text-transform: capitalize;
+ font-size: 50px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 300;
+ letter-spacing: 3px;
+ line-height: 60px;
+}
+.dscription p{
+    color: #b0a282;
+    font-size: 20px;
+    line-height: 10px;
+    margin-top: 15px;
+    }
+.hedBtn{
+    margin: 0 auto;
+    width: 483px;
+    margin-top: 26px;
+    outline: none;
+}
+.hedBtn button {
+    padding: 12px 22px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #CAAC66;
+    outline: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    border: none;
+}
+#medlSec{
+    padding: 80px 0px;
+}
+.med_warrper{
+    overflow: hidden;
+    position: relative;
+}
+.left_text{
+width: 370px;
+float: left;
+padding-left: 30px
+}
+.shadowText {
+    position: relative;
+}
+.shadowText h2 {
+    position: absolute;
+    top: -50px;
+    font-family: 'Kristi', cursive;
+    font-size: 60px;
+    text-transform: uppercase;
+    left: 35px;
+    z-index: 1;
+    color: beige;
+    font-weight: 100;
+}
+.left_text h1{text-transform: uppercase;font-family: 'Montserrat';margin-bottom: 10px;font-size: 40px;font-weight: 300;}
+.left_text p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.med_text p{
+    width: 345px;
+    float: left;   
+    margin-top: 60px;   
+    padding-left: 20px;   
+    font-size: 18px;
+    font-weight: 300;
+    }
+.right_img{
+    
+float: right;
+    
+width: 309px;
+    
+height: 475px;
+    
+position: relative;
+}
+.right_img i {
+    position: absolute;
+    color: #ffffffa3;
+    font-size: 50px;
+    top: 50%;
+    left: 40%;
+}
+.se_btn{
+   
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: 170px;
+    left: 32px;
+    background: rgb(202, 172, 102);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px -3px black;
+}
+.se_btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.right_img img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.blog_img{
+    overflow: hidden;
+    position: relative;
+    margin-top: -79px;
+    left: 20px;
+}
+.blog_img_s{
+    float: left;
+    display: block;
+    width: 204px;
+    padding-left: 30px;
+    position: relative;
+}
+.blog_img_s img{
+    max-width: 100%;
+    height: 196px;
+    border-radius: 15px;
+}
+
+.blog_img_s:first-child{
+    padding-left: 0px;
+}
+.blog_img_s:first-child span {
+    position: absolute;
+    left: 62px;
+}
+.blog_img_s span {
+    position: absolute;
+    color: #ffffff;
+    left: 42%;
+    bottom: 10px;
+    text-transform: capitalize;
+}
+#midelPtc{
+    background: linear-gradient(#00000059,#00000059),url(img/section2.jfif);
+    height: 364px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.midewapper{
+    overflow: hidden;
+}
+.midelTextPtc_l{
+    float: left;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 310px;
+    left: 100px;
+}
+.midelTextPtc_l h3 {
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.mdiltxPtc_M{
+    float: left;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 500px;
+    top: 46%;
+    overflow: hidden;
+}
+.mdiltxPtc_M h3 {
+    font-size: 18px;
+    font-weight: 300;
+    float: left;
+    display: block;
+    text-transform: uppercase;
+}
+.cues_hN2 {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    float: left;
+    display: block;
+}
+.cues_hN2 h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.cues_hN2 span{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.mdiltxPtc_M p{
+   font-size: 30px;
+   font-weight: 400;
+}
+.mdlIcon_ptc{
+
+position: absolute;
+
+top: 48px;
+
+left: 56px;
+}
+.mdlIcon_ptc i{
+    
+font-size: 16px;
+}
+.mdiltxPtc_M span{
+
+font-size: 13px;
+
+font-weight: 300;
+
+position: absolute;
+
+top: 32px;
+
+left: 41px;
+
+font-family: 'Montserrat';
+
+text-transform: uppercase;
+}
+.midelBtn_B{
+    position: absolute;
+    top: 50%;
+    right: 300px;
+    background: rgb(202, 172, 102);
+    width: 110px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 8px 0px;
+    box-shadow: 0px -3px 11px 1px #512d2d;
+    text-transform: uppercase;
+}
+.midelBtn_B a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+#postBlg{
+    padding: 90px 0px;
+    position: relative;
+}
+.taitel_text {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.shado2{
+    position:absolute;
+    left: 586px;
+    top: 38px;
+    z-index: -1;
+}
+
+.taitel_text h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #4C4C4C;
+    font-weight: 200;
+}
+.single_post {
+    width: 314px;
+    float: left;
+    display: block;
+}
+
+.postWarpper {
+    overflow: hidden;
+}
+
+.single_post img {
+    max-width: 100%;
+    height: 301px;
+    border-radius: 5px;
+}
+.single_post2 {
+    width: 314px;
+    float: left;
+    margin-left: 13px;
+}
+
+.single_post2 img {
+    max-width: 1000%;
+    height: 380px;
+    border-radius: 5px;
+}
+.single_post3 {
+    width: 372px;
+    float: left;
+    margin-left: 4px;
+    height: 400px;
+    position: relative;
+}
+
+.single_post3 img {
+    height: 191px;
+    width: 100%;
+    border-radius: 5px;
+}
+.sinwarp11 {
+    overflow: hidden;
+}
+
+.sin1 {
+    width: 179px;
+    float: left;
+}
+
+.sin1 img {
+    max-width: 100%;
+    height: 154px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+.sin2 {
+    width: 179px;
+    float: left;
+    margin-left: 14px;
+}
+
+.sin2 img {
+    max-width: 100%;
+    height: 154px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+.single_post4 {
+    width: 314px;
+    float: left;
+    margin-top: -85px;
+}
+
+.single_post4 img {
+    max-width: 100%;
+    height: 296px;
+    border-radius: 5px;
+}
+.single_post5 {
+    width: 304px;
+    float: left;
+    margin-left: 14px;
+    margin-top: -5px;
+}
+
+.single_post5 img {
+    height: 214px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.single_post6 {
+    float: left;
+    margin-left: 13px;
+    margin-top: -33px;
+    width: 374px;
+}
+
+.single_post6 img {
+    height: 242px;
+    width: 100%;
+    border-radius: 5px;
+}
+#footerSection{
+    background: linear-gradient(#000000d1,#19121280),url(img/footer.jfif);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.divWarpperFt{
+    overflow: hidden;
+    position: relative;
+}
+.contactft {
+    float: left;
+    width: 400px;
+    margin-top: 118px;
+}
+
+.contactft h2 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 34px;
+    margin-left: 51px;
+    font-weight: 300;
+}
+
+.contactft p {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    width: 235px;
+    margin-bottom: 16px;
+}
+
+.i_con {
+    overflow: hidden;
+    margin-left: 1px;
+}
+
+.i_con i {
+    font-size: 20px;
+    margin-top: 8px;
+    float: left;
+    margin-left: 33px;
+    color: white;
+    text-align: center;
+}
+.i_con i:hover{
+    transform: scale(1.1);
+    
+}
+.ph_logImg {
+    width: 160px;
+    margin-left: 92px;
+    margin-bottom: 33px;
+}
+
+.ph_log {
+    float: left;
+    width: 300px;
+    margin-left: -75px;
+    margin-top: 85px;
+}
+
+.ph_logImg img {
+    height: 65px;
+    max-width: 100%;
+}
+.ph_log p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.ph_log span {
+    color: wheat;
+    text-align: center;
+    margin-left: 91px;
+    font-size: 16px;
+}
+.input_em {
+    float: left;
+    margin-top: -146px;
+    width: 381px;
+    text-align: center;
+    margin-left: 237px;
+}
+
+.input_em h1 {
+    color: white;
+    margin-bottom: 47px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    margin-left: -30px;
+}
+
+.input_em input {
+    padding: 8px 53px 8px 12px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: transparent;
+    text-transform: capitalize;
+    outline: none;
+    color: white;
+    font-size: 12px;
+}
+.shado2 h1 {
+    font-size: 75px;
+    font-family: 'Kristi';
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #f5f5d3;
+}
